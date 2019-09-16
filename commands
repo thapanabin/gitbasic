@@ -1,0 +1,69 @@
+Commands:
+git init
+git add . —>add all file in the staging area
+Git commit -a -m “Message”
+Git config —global user.name “your name”
+Git config —global user.email “your email”
+Git config —list
+Git log —>list of commit that is made
+Git log -2 —> only show the last two commands
+Git remote add origin http://github.com…->add the remote repo where you want to upload 
+Git push origin master 
+Git push -u origin master
+
+//Undoing Reverting Resetting code changes:
+#To revert the uncommitted changes:
+Git checkout — <filename> ==>reverting back the changes for single file
+
+Git checkout —  . =>this will undo the changes in the files
+
+#To revert the committed changes:
+Git revert <commitID> This will revert the commit as well commit the revert
+
+I want to revert the commit and explicitely commit after revert:
+Git revert -n <commitId> it will revert but will not commit atomically so we need to commit explicitly.
+
+#Resetting changes using git reset:
+
+Git reset —hard <commitId> to revert back to that particular commit(this is powerful command so we should be careful)
+
+#Branches(create Merge Delete  a branch)
+-Git branch —>to display the list of branch
+-Git branch <branchname> to create the branch
+-Git checkout <branchname> => to make the newly created branch active
+
+#Merge Two Branches:
+Go to the branch where you want to merge
+Git merge <branchname> 
+
+Git push ==> to push the branch in to GitHub
+
+First go to that branch and do git push 
+
+Branch is needed to have two separate copies of the code
+
+Deleting the branch:
+
+
+Git checkout -b dummy —> create the branch dummy and also checkout that branch at the same time
+
+git branch -d <branchname>
+
+HEAD is a reference to the most recent commit in current branch (in most of the cases)
+Git show HEAD
+Git show <commitId>  both command display same output
+Head is short form of writing this commit id
+
+Git difftool <commidId1> <commitId2>
+Or
+Git difftool HEAD~2 HEAD~1
+
+
+When HEAD is not pointing to the most recent commit you go into detached HEAD state
+Git checkout <commitID> from which commit you want to proceed from
+
+git checkout master —>you want to come out of the detached HEAD state
+
+.ignore file:
+
+
