@@ -1,0 +1,11 @@
+public class Employee{
+	public double calculateArea(int a,intb){
+		int area = a*b;
+	return area;
+}
+	public static void main(String[]args){
+	
+}
+
+
+}
