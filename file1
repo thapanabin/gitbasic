@@ -1,11 +1,17 @@
 public class Employee{
+	public double calculateVolume(int a,intb,int c){
+		int volume = a*b*c;
+}
+
+	public static void main(String[] args){
+		
+}
 	public double calculateArea(int a,intb){
 		int area = a*b;
 	return area;
 }
-	public static void main(String[]args){
 	
-}
+
 
 
 }
