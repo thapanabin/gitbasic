@@ -1,14 +1,23 @@
 public class Employee{
+<<<<<<< HEAD
 
+=======
+	public double calculateVolume(int a,intb,int c){
+		int volume = a*b*c;
+}
+
+	public static void main(String[] args){
+		
+}
+>>>>>>> a59c92a78738c7ef03f60bae737b6ca136cd0b7a
 	public double calculateArea(int a,intb){
 		int area = a*b;
 	return area;
 }
-	public static void main(String[]args){
 	
-}
 
 
+<<<<<<< HEAD
 
 	public String calculateVolume(int a,intb,int c){
 		int volume = a*b*c;
@@ -17,4 +26,7 @@ public class Employee{
 	
 		
 
+=======
+
+>>>>>>> a59c92a78738c7ef03f60bae737b6ca136cd0b7a
 }
