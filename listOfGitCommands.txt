@@ -66,4 +66,6 @@ git checkout master —>you want to come out of the detached HEAD state
 
 .ignore file:
 
+//Updating the changes made by other developer in local
+git pull origin master
 
